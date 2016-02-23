@@ -1,0 +1,17 @@
+{
+  "name": "Ovchinin Alexandr/fsrestapi",
+  "description": "File system RESTful API",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Ovchinin Alexandr",
+      "email": "alex.ovchinin@gmail.com"
+    }
+  ],
+  "require": {
+    "phalcon/devtools": "2.1.x-dev"
+  },
+  "autoload" : {
+    "psr-4":{"Fsrestapi\\":"src/"}
+  }
+}
